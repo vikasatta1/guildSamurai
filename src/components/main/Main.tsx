@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.scss'
+import BlogItem from "../blogItem/BlogItem";
 
 
 const Main = () => {
@@ -18,49 +19,13 @@ const Main = () => {
             </div>
             <div className={'blogs'}>
 
-                <div className={'blog'}>
-                    <div className={'blog-logo'}>
-                       {/* <img alt={'logo'}/>*/}
-                    </div>
-                    <div className={'content-blog'}>
-                        <h3>The best blog in your village</h3>
-                        <p className={'grey'}>Website: <a href={'#'}>https://www.youtube.com/</a></p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias atque, consectetur
-                            consequuntur earum esse laborum laudantium magni, minima, molestiae mollitia nemo nisi
-                            numquam obcaecati recusandae rem rerum sed vel?
-                        </p>
-                    </div>
-                </div>
-                <div className={'blog'}>
-                    <div className={'blog-logo'}>
-                        {/* <img alt={'logo'}/>*/}
-                    </div>
-                    <div className={'content-blog'}>
-                        <h3>The best blog in your village</h3>
-                        <p className={'grey'}>Website: <a href={'#'}>https://www.youtube.com/</a></p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias atque, consectetur
-                            consequuntur earum esse laborum laudantium magni, minima, molestiae mollitia nemo nisi
-                            numquam obcaecati recusandae rem rerum sed vel?
-                        </p>
-                    </div>
-                </div>
+                <BlogItem />
+                <BlogItem/>
+                <BlogItem/>
+                <BlogItem/>
 
-                <div className={'blog'}>
-                    <div className={'blog-logo'}>
-                        {/* <img alt={'logo'}/>*/}
-                    </div>
-                    <div className={'content-blog'}>
-                        <h3>The best blog in your village</h3>
-                        <p className={'grey'}>Website: <a href={'#'}>https://www.youtube.com/</a></p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias atque, consectetur
-                            consequuntur earum esse laborum laudantium magni, minima, molestiae mollitia nemo nisi
-                            numquam obcaecati recusandae rem rerum sed vel?
-                        </p>
-                    </div>
-                </div>
+
+
             </div>
 
             <div className={'button'}>

@@ -37,50 +37,7 @@
   margin: 0 4em 0 0;
 
 
-  .blog {
-    display: flex;
-    flex-direction: row;
-    /*border: 1px solid red;*/
-    justify-content: space-between;
-    height: 11em;
-    border-bottom: 1px solid #DEDBDC;
 
-    .blog-logo {
-      border-radius: 100%;
-      background-color: yellow;
-    }
-
-    .content-blog {
-      flex-basis: 79%;
-
-
-      h3 {
-        margin: 0;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.8em;
-        line-height: 2em;
-      }
-      p{
-        margin: 0;
-        padding: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.1em;
-        &:last-child{
-          margin-top: 1em;
-        }
-      }
-
-
-      .grey {
-        color: #737067
-      }
-    }
-    &:last-child{
-      border-bottom: none;
-    }
-  }
 
 }
 .button{
