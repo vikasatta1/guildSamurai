@@ -1,0 +1,13 @@
+.App{
+  width: 80%;
+  margin: 0 auto;
+  border:1px solid blue;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.navigation{
+  flex-basis: 20%;
+  border:1px solid green;
+}
