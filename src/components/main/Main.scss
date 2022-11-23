@@ -4,59 +4,5 @@
   background: rgba(222, 219, 220, 0.2)
 }
 
-.h2 {
-  margin: 2.5em 0 0 0;
-  border-bottom: 1px solid #DEDBDC;
-
-  h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2em;
-    line-height: 1em;
-    margin: 0 0 0.2em 0;
-  }
-}
-
-.search {
-  margin-top: 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-
-
-  select {
-    width: 25%;
-    margin-right: 2em;
-    outline: none;
-    border: 1px solid #DEDBDC;
-  }
-}
-
-.blogs {
-
-  margin: 0 4em 0 0;
-
-
-
-
-}
-.button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  button{
-    font-weight: bold;
-    font-size: 1.1em;
-    width: 10em;
-    height: 1.8em;
-    border: 0.5px solid black;
-    border-radius: 2px;
-    margin: 2em 0 3em 0;
-    &:hover{
-      color: #737067;
-    }
-  }
-}
 
 
