@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.scss'
 import BlogItem from "../blogItem/BlogItem";
+import InputComponent from "../input/InputComponent";
 
 
 const Main = () => {
@@ -10,10 +11,10 @@ const Main = () => {
                 <h2>Blogs</h2>
             </div>
             <div className={'search'}>
-                <input/>
+                <InputComponent/>
                 <select>
                     <option value="value1">Значение 1</option>
-                    <option value="value2" selected>Значение 2</option>
+                    <option value="value2" >Значение 2</option>
                     <option value="value3">Значение 3</option>
                 </select>
             </div>
