@@ -1,32 +1,38 @@
-.navigation{
+.navigation {
+  box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
   flex-basis: 20%;
-  border:1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
-  img{
+
+  img {
     width: 24px;
     height: 24px;
   }
 
 }
-.blogsNav{
+
+.blogsNav {
 
   border: 1px solid red;
-p{
-  font-size: 1.4em;
-  margin: 0.2em 0 0 0;
-}
-  margin:3em 0 0 0;
+
+  p {
+    font-size: 1.4em;
+    margin: 0.2em 0 0 0;
+  }
+
+  margin: 3em 0 0 0;
   display: flex;
-  flex-direction:row ;
+  flex-direction: row;
 
 }
-.posts{
-  margin: 2em 0 0 0 ;
+
+.posts {
+  margin: 2em 0 0 0;
   display: flex;
-  flex-direction:row ;
-  p{
+  flex-direction: row;
+
+  p {
     margin: 0.3em 0 0 0;
     font-size: 1.4em;
   }
