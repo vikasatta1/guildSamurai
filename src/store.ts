@@ -1,10 +1,14 @@
-
-import { combineReducers, createStore } from 'redux'
+import {combineReducers, createStore} from 'redux'
 import {TypedUseSelectorHook, useSelector} from "react-redux";
+import {appReducer} from "./redux/app-reducer";
+import {postsReducer} from "./redux/posts-reducer";
+import {blogsReducer} from "./redux/blogs-reducer";
 
 
 const rootReducer = combineReducers({
-
+    app: appReducer,
+    posts: postsReducer,
+    blogs: blogsReducer
 })
 
 export const store = createStore(rootReducer);
