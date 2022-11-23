@@ -24,10 +24,12 @@
   justify-content: space-between;
 
   input {
-
+    height: 2em;
+width: 65%;
   }
 
   select {
+    width: 25%;
     margin-right: 2em;
   }
 }
