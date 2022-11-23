@@ -1,5 +1,5 @@
 import React, {ChangeEvent, useState} from 'react';
-
+import './Input.scss'
 const InputComponent = () => {
     let [title, setTitle] = useState('')
     const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {

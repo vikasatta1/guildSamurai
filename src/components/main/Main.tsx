@@ -13,9 +13,10 @@ const Main = () => {
             <div className={'search'}>
                 <InputComponent/>
                 <select>
-                    <option value="value1">Значение 1</option>
-                    <option value="value2" >Значение 2</option>
-                    <option value="value3">Значение 3</option>
+                    <option value="value1">New blogs first</option>
+                    <option value="value2" >Old blogs first</option>
+                    <option value="value3">From A to Z</option>
+                    <option value="value4">From Z to A</option>
                 </select>
             </div>
             <div className={'blogs'}>

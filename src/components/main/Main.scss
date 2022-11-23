@@ -18,19 +18,18 @@
 }
 
 .search {
-  margin-top: 1em;
+  margin-top: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  input {
-    height: 2em;
-width: 65%;
-  }
+
 
   select {
     width: 25%;
     margin-right: 2em;
+    outline: none;
+    border: 1px solid #DEDBDC;
   }
 }
 
