@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.scss';
 import Header from "./components/header/Header";
-import Main from "./components/main/Main";
+import {
+    Routes,
+    Route,
+} from "react-router-dom";
 import Navigation from "./components/nav/Navigation";
+import Blogs from "./pages/blogs/Blogs";
+import Posts from "./pages/posts/Posts";
 
 function App() {
     return (
@@ -10,7 +15,13 @@ function App() {
             <Header/>
             <div className="content">
                 <Navigation/>
-                <Main/>
+                <div className={'main'}>
+                    <Routes>
+                        <Route path={'/'} element={<Blogs/>}/>
+                        <Route path={'/blogs'} element={<Blogs/>}/>
+                        <Route path={'/posts'} element={<Posts/>}/>
+                    </Routes>
+                </div>
             </div>
         </div>
     );
