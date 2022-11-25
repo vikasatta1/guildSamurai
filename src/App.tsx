@@ -8,6 +8,7 @@ import {
 import Navigation from "./components/nav/Navigation";
 import Blogs from "./pages/blogs/Blogs";
 import Posts from "./pages/posts/Posts";
+import BlogPage from "./pages/blogPage/BlogPage";
 
 function App() {
     return (
@@ -17,7 +18,8 @@ function App() {
                 <Navigation/>
                 <div className={'main'}>
                     <Routes>
-                        <Route path={'/'} element={<Blogs/>}/>
+                        <Route path={'/'} element={<BlogPage key={1} id={'1'} websiteUrl={'fpkpsnvk'} description={'onjcsdsounvwroubvrw'}
+                          name={'LAlala'}/>}/>
                         <Route path={'/blogs'} element={<Blogs/>}/>
                         <Route path={'/posts'} element={<Posts/>}/>
                     </Routes>

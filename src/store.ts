@@ -3,10 +3,12 @@ import {TypedUseSelectorHook, useSelector} from "react-redux";
 import {appReducer} from "./redux/app-reducer";
 import {postsReducer} from "./redux/posts-reducer";
 import {blogsReducer} from "./redux/blogs-reducer";
+import {authReducer} from "./redux/auth-reducer";
 
 
 const rootReducer = combineReducers({
     app: appReducer,
+    auth:authReducer,
     posts: postsReducer,
     blogs: blogsReducer
 })

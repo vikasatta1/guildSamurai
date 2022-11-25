@@ -2,6 +2,8 @@ import React from 'react';
 import InputComponent from "../../components/input/InputComponent";
 import BlogItem from "../../components/blogItem/BlogItem";
 import './Blogs.scss'
+import {blogs} from "../../redux/blog";
+
 const Blogs = () => {
     return (
         <>
@@ -12,17 +14,20 @@ const Blogs = () => {
                 <InputComponent/>
                 <select>
                     <option value="value1">New blogs first</option>
-                    <option value="value2" >Old blogs first</option>
+                    <option value="value2">Old blogs first</option>
                     <option value="value3">From A to Z</option>
                     <option value="value4">From Z to A</option>
                 </select>
             </div>
             <div className={'blogs'}>
-
-                <BlogItem />
-                <BlogItem/>
-                <BlogItem/>
-                <BlogItem/>
+                {blogs.map(b =>
+                    <BlogItem
+                        key={b.id}
+                        id={b.id}
+                        name={b.name}
+                        description={b.description}
+                        websiteUrl={b.websiteUrl}
+                    />)}
             </div>
 
             <div className={'button'}>

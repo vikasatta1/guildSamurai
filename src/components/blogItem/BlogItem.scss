@@ -1,21 +1,30 @@
-.blog{
+.blog {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 15em;
   border-bottom: 1px solid #DEDBDC;
+  align-items: center;
+  margin-top: 1em;
+
 
   .blog-logo {
     border-radius: 100%;
-    background-color: yellow;
+    flex-basis: 16%;
+    border: 1px solid green;
+    height: 140px;
+    margin-bottom: 5px;
   }
 
   .content-blog {
-    flex-basis: 79%;
-    margin-top: 1em;
-p:last-child{
-  line-height: 2em;
-}
+
+    flex-basis: 82%;
+    height: 90%;
+
+    p:last-child {
+      line-height: 2em;
+    }
 
     h3 {
       margin: 0;
@@ -24,13 +33,15 @@ p:last-child{
       font-size: 1.8em;
       line-height: 2em;
     }
-    p{
+
+    p {
       margin: 0;
       padding: 0;
       font-style: normal;
       font-weight: 400;
       font-size: 1.1em;
-      &:last-child{
+
+      &:last-child {
         margin-top: 2em;
       }
     }
@@ -40,7 +51,8 @@ p:last-child{
       color: #737067
     }
   }
-  &:last-child{
+
+  &:last-child {
     border-bottom: none;
   }
 }

@@ -1,25 +1,22 @@
 import React from 'react';
 import './BlogItem.scss'
-type BlogItemPropsType = {
-    img:string,
-    title:string,
-    href:string,
-    content:string
+
+export type BlogPropsType = {
+    id: string,
+    name: string,
+    description: string,
+    websiteUrl: string
 }
-const BlogItem = () => {
+const BlogItem = (props: BlogPropsType) => {
     return (
         <div className={'blog'}>
             <div className={'blog-logo'}>
                 {/* <img alt={'logo'}/>*/}
             </div>
             <div className={'content-blog'}>
-                <h3>The best blog in your village</h3>
-                <p className={'grey'}>Website: <a href={'#'}>https://www.youtube.com/</a></p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias atque, consectetur
-                    consequuntur earum esse laborum laudantium magni, minima, molestiae mollitia nemo nisi
-                    numquam obcaecati recusandae rem rerum sed vel?
-                </p>
+                <h3>{props.name}</h3>
+                <p className={'grey'}>Website: <a href={'#'}>{props.websiteUrl}</a></p>
+                <p>{props.description}</p>
             </div>
         </div>
     );
