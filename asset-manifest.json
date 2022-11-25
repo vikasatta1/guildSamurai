@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/guildSamurai/static/css/main.339cda90.css",
+    "main.js": "/guildSamurai/static/js/main.063359bc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/guildSamurai/static/js/787.28cb0dcd.chunk.js",
+    "static/media/postImg.png": "/guildSamurai/static/media/postImg.34c663d8f10f5b445925.png",
+    "index.html": "/guildSamurai/index.html",
+    "static/media/list.svg": "/guildSamurai/static/media/list.a8b3cf6a7dd37af0b337e3c73554fabc.svg",
+    "static/media/grid_view.svg": "/guildSamurai/static/media/grid_view.33c65dacd6ea1f3a9f57e28979e65c95.svg",
+    "main.339cda90.css.map": "/guildSamurai/static/css/main.339cda90.css.map",
+    "main.063359bc.js.map": "/guildSamurai/static/js/main.063359bc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/guildSamurai/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.339cda90.css",
+    "static/js/main.063359bc.js"
+  ]
+}
